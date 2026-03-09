@@ -45,7 +45,7 @@ export class WeatherService {
   private async fetchWeatherData(coordinates: Coordinates, date: string) {
     try {
       const response = await fetch(
-        `${WEATHER_API}/?latitude=${coordinates.latitude}&longitude=${coordinates.longitude}&daily=apparent_temperature_max,apparent_temperature_min&timezone=Europe/Budapest`,
+        `${WEATHER_API}/?latitude=${coordinates.latitude}&longitude=${coordinates.longitude}&daily=apparent_temperature_max,apparent_temperature_min,weathercode&timezone=Europe/Budapest`,
       );
 
       if (!response.ok) {
