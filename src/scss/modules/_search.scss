@@ -1,0 +1,21 @@
+@use '../theme.scss';
+/* ---------- Search ---------- */
+
+.search {
+  padding: 20px 0;
+}
+
+.search form {
+  display: flex;
+  flex-direction: column;
+  gap: theme.$gutter;
+  border-radius: 20px;
+  padding: calc(theme.$gutter * 2);
+  background: map-get(theme.$primary-color, 100);
+}
+
+.search .btn {
+  background: map-get(theme.$secondary-color, 100);
+  color: #fff;
+  border-color: map-get(theme.$secondary-color, 100);
+}

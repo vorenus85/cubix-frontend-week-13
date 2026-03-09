@@ -1,0 +1,22 @@
+@import 'variables';
+
+$primary-color: (
+  100: var(--primary-color),
+);
+
+$secondary-color: (
+  100: var(--secondary-color),
+);
+
+$header-bg-color: var(--header-bg-color);
+$gutter: calc(var(--gutter) * 1.5);
+
+$btn-bdrs: calc(var(--btn-bdrs) * 2);
+$input-bdrs: calc(var(--input-bdrs) * 2);
+
+$weather-card-bg: var(--weather-card-bg);
+$weather-card-brds: calc(var(----weather-card-brds) * 2);
+
+$error-color: var(--error-color);
+$error-bg-color: var(--error-bg-color);
+$error-border-color: var(--error-border-color);

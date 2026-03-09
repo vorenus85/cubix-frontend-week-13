@@ -1,3 +1,4 @@
+@use '../theme.scss';
 /* ---------- Base elements ---------- */
 
 * {
@@ -13,14 +14,14 @@ body {
 
 button,
 input {
-  padding: calc(var(--gutter) / 2) var(--gutter);
-  border-radius: var(--input-bdrs);
+  padding: calc(theme.$gutter / 2) theme.$gutter;
+  border-radius: theme.$input-bdrs;
   border: 1px solid #c5c5c5;
 }
 
 .btn {
   cursor: pointer;
-  border-radius: var(--btn-bdrs);
+  border-radius: theme.$btn-bdrs;
 }
 
 .hidden {

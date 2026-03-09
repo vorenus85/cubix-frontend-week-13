@@ -1,0 +1,7 @@
+@use '../theme.scss';
+/* ---------- Header ---------- */
+
+.header {
+  background: map-get(theme.$primary-color, 100);
+  padding: calc(theme.$gutter * 2);
+}

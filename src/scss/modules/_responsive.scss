@@ -1,3 +1,4 @@
+@use '../theme.scss';
 /* ---------- Tablet ---------- */
 
 @media (min-width: 600px) {
@@ -12,7 +13,7 @@
   }
 
   .weather-card {
-    width: calc(50% - var(--gutter));
+    width: calc(50% - theme.$gutter);
   }
 }
 
@@ -25,7 +26,7 @@
   }
 
   .weather-card {
-    width: calc(25% - var(--gutter));
+    width: calc(25% - theme.$gutter);
   }
 
   .w-50 {
@@ -39,7 +40,7 @@
 
 @media (min-width: 1200px) {
   .weather-card {
-    width: calc(20% - var(--gutter));
+    width: calc(20% - theme.$gutter);
   }
 
   .weather-container {

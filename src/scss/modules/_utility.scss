@@ -1,0 +1,38 @@
+@use '../theme.scss';
+/* ---------- Utility ---------- */
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.form-group input {
+  width: 100%;
+}
+
+.message-error {
+  padding: 0.75rem 1.25rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  text-align: center;
+  color: theme.$error-color;
+  background-color: theme.$error-bg-color;
+  border-color: theme.$error-border-color;
+}

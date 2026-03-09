@@ -1,6 +1,7 @@
+@use '../theme.scss';
 /* ---------- Layout ---------- */
 
 .container {
   width: 100%;
-  padding: 0 var(--gutter);
+  padding: 0 theme.$gutter;
 }
