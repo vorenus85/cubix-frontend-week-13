@@ -11,11 +11,24 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
   </head>
   <body>
     <div id="app">
       <header class="header">
-        <h1>Javascript Weather application</h1>
+        <h1>Javascript Weather Application</h1>
+        <div class="actions">
+          <button
+            class="material-symbols-outlined btn btn-icon"
+            type="button"
+            id="dark-mode-switch"
+          >
+            light_mode
+          </button>
+        </div>
       </header>
       <main class="main">
         <div class="search">
@@ -39,7 +52,12 @@
               <button id="weather-submit" type="submit" class="btn ml-auto">
                 Search
               </button>
-              <button type="reset" class="btn">X</button>
+              <button
+                type="reset"
+                class="material-symbols-outlined btn btn-icon"
+              >
+                clear
+              </button>
             </form>
           </div>
         </div>

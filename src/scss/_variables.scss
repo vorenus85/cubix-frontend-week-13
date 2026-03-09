@@ -1,16 +1,13 @@
 :root {
   --primary-color: rgb(243, 198, 49);
   --secondary-color: rgb(1, 110, 1);
-
+  --body-background: #fff;
   --header-bg-color: var(--primary-color);
   --gutter: 10px;
-
   --btn-bdrs: 3px;
   --input-bdrs: 5px;
-
   --weather-card-bg: var(--secondary-color);
   --weather-card-brds: 10px;
-
   --error-color: #721c24;
   --error-bg-color: #f8d7da;
   --error-border-color: #f5c6cb;

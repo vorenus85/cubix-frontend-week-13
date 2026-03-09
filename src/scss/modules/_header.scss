@@ -4,4 +4,24 @@
 .header {
   background: map-get(theme.$primary-color, 100);
   padding: calc(theme.$gutter * 2);
+  display: flex;
+
+  .actions {
+    margin-left: auto;
+    .btn {
+      width: 2.5rem;
+      height: 2.5rem;
+      padding: 0;
+      background: map-get(theme.$secondary-color, 100);
+      color: #fff;
+    }
+  }
+}
+
+.dark-mode {
+  .header {
+    h1 {
+      color: #f4f4f4;
+    }
+  }
 }

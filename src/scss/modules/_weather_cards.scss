@@ -11,15 +11,14 @@
 
 .weather-card {
   width: 100%;
-  min-height: 250px;
+  min-height: 350px;
   text-align: center;
   border-radius: theme.$weather-card-brds;
   background: map-get(theme.$secondary-color, 100);
   padding: theme.$gutter;
-  border: 3px solid map-get(theme.$primary-color, 100);
+  border: 2px solid map-get(theme.$primary-color, 100);
   color: #fff;
   font-size: 1.1rem;
-
   p {
     font-size: 48px;
   }

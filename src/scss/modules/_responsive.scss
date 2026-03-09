@@ -26,7 +26,7 @@
   }
 
   .weather-card {
-    width: calc(25% - theme.$gutter);
+    width: calc(33% - theme.$gutter);
   }
 
   .w-50 {
@@ -40,7 +40,7 @@
 
 @media (min-width: 1200px) {
   .weather-card {
-    width: calc(20% - theme.$gutter);
+    width: 300px;
   }
 
   .weather-container {

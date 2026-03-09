@@ -8,6 +8,8 @@ $secondary-color: (
   100: var(--secondary-color),
 );
 
+$body-background: var(--body-background);
+
 $header-bg-color: var(--header-bg-color);
 $gutter: calc(var(--gutter) * 1.5);
 
@@ -15,7 +17,7 @@ $btn-bdrs: calc(var(--btn-bdrs) * 2);
 $input-bdrs: calc(var(--input-bdrs) * 2);
 
 $weather-card-bg: var(--weather-card-bg);
-$weather-card-brds: calc(var(----weather-card-brds) * 2);
+$weather-card-brds: calc(var(--weather-card-brds) * 2);
 
 $error-color: var(--error-color);
 $error-bg-color: var(--error-bg-color);
