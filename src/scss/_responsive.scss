@@ -1,0 +1,48 @@
+/* ---------- Tablet ---------- */
+
+@media (min-width: 600px) {
+  .search form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .weather-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .weather-card {
+    width: calc(50% - var(--gutter));
+  }
+}
+
+/* ---------- Desktop ---------- */
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .weather-card {
+    width: calc(25% - var(--gutter));
+  }
+
+  .w-50 {
+    width: 50%;
+  }
+
+  .w-25 {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .weather-card {
+    width: calc(20% - var(--gutter));
+  }
+
+  .weather-container {
+    padding: 0 5%;
+  }
+}
