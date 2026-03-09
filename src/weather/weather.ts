@@ -59,6 +59,7 @@ export class WeatherService {
       return {
         minTemp: data.daily.apparent_temperature_max[dateIndex],
         maxTemp: data.daily.apparent_temperature_min[dateIndex],
+        weathercode: data.daily.weathercode[dateIndex],
       };
     } catch (error) {
       throw error;
